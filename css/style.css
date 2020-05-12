@@ -210,3 +210,75 @@ li {
   margin-top: 47px;
   width: 238px;
 }
+
+@media (max-width: 1366px) {
+  body {
+    background-size: 900px;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .search {
+    order: 3;
+  }
+  .title {
+    margin-top: 50%;
+  }
+  .more {
+    display: none;
+  }
+  
+  .movie-info {
+    display: flex;
+    flex-wrap:wrap ;
+  }
+  .trailer {
+    margin-top: 26px;
+  }
+  .actors {
+    display: none;
+  }
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .about-film {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .film-more {
+    display:inline-block ;
+    margin: 5px;
+  }
+  .film-bookmark {
+    display: none;
+  }
+  .info-film {
+    margin-left: 18px;
+    margin-top: 0;
+    max-width: 80%;
+  }
+  .center {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .text-2 {
+    margin-bottom: 0;
+  }
+  .right-part {
+    margin-left: 18px;
+    
+  }
+  .advertising {
+    margin-bottom: 59px;
+  }
+}
